@@ -1,46 +1,75 @@
+@font-face {
+    font-family: coffee;
+    src: url(/fonts/MADE\ Sunflower\ PERSONAL\ USE.otf);
+}
+
+@font-face{
+
+    font-family: TT rounds;
+    src: url(/fonts/TT\ Rounds\ Neue\ Trial\ Black.ttf);
+  }
+
 *{
     padding: 0;
     margin: 0;
 }
 
 body{
-   background-repeat: no-repeat;
-   background-size: cover;
+    overflow: hidden;
 }
 
-.websiteHoog{
-    justify-content: center;
-    display: flex;
-    flex-direction: row ;
-    border: yellow 1px solid;
+.homeText1{
+    font-family: TT rounds;
+    color:#B2D3A8;
+    font-size: 3rem;
+    text-shadow: 	
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;;
+}
+
+.homeText2{
+    font-family: coffee;
+    font-size: 3rem;
+    color: #B2D3A8;
+    text-shadow: 	
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;;
+}
+
+.topScherm{
+    flex-direction: column;
+    background-image: url(/afbeeldingen/afbeelding\ michelle.jpg);
+    background-repeat: no-repeat;   
+    background-size: cover;
     height: 50%;
 }
 
-.hometext{
-    font-size: 500%;
-    color: #82c598;
-}
-
-.websiteMidden{
-    justify-content: center;
-    column-gap: 1rem;
+.bottemScherm{
+    background-color: #FFB74F;
     border: red 1px solid;
-    height: 50%;
-    z-index: 1;
+    height: 30rem  ;
+    justify-content: center;
+    display:flex
 }
 
-.homebutton{
-    height: 2rem;
-    width: 4rem;
-    display: flex;
-    text-align: center;
-    margin-top: 1rem;
+#home-button{
+    max-height: 4rem;
+    width: 8rem;
+    
 }
 
-.homeimage{
-margin-left: auto;
-margin-top: auto;
-z-index: 2;
-margin-top: 3rem;
-position: absolute;
+
+#topSchermR{
+border: red 1px solid;
+
+}
+
+#topSchermL{
+    border: blue 1px solid;
+ 
+
 }
