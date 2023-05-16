@@ -1,13 +1,9 @@
 @font-face {
     font-family: coffee;
-    src: url(/fonts/MADE\ Sunflower\ PERSONAL\ USE.otf);
+    src: url(/fonts/MADE\ Sunflower\ PERSONAL\ USE./fonts/Philosopher-Bold.ttf);
 }
 
-@font-face{
 
-    font-family: TT rounds;
-    src: url(/fonts/TT\ Rounds\ Neue\ Trial\ Black.ttf);
-  }
 
 *{
     padding: 0;
@@ -19,25 +15,28 @@ body{
 }
 
 .homeText1{
-    font-family: TT rounds;
-    color:#B2D3A8;
+    color:#ffffff;
     font-size: 3rem;
     text-shadow: 	
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;;
+    margin-left: 35%;
+
 }
 
 .homeText2{
     font-family: coffee;
     font-size: 3rem;
-    color: #B2D3A8;
+    color: #ffffff;
     text-shadow: 	
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;;
+    margin-top: 5rem;
+    margin-left: 2rem;
 }
 
 .topScherm{
@@ -46,30 +45,84 @@ body{
     background-repeat: no-repeat;   
     background-size: cover;
     height: 50%;
-}
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    z-index: 1;
+}    
 
-.bottemScherm{
+
+
+#bottemScherm{
     background-color: #FFB74F;
-    border: red 1px solid;
     height: 30rem  ;
     justify-content: center;
-    display:flex
+    display:flex;
+    z-index: 0;
+    position: relative;
 }
 
 #home-button{
+    margin-top: 10%;
     max-height: 4rem;
     width: 8rem;
-    
+    background-color: #1faf78;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #000000;
+    display: flex;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 460px;
+    position: relative;
+    cursor: pointer;
+    transform: rotate(-2deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
+
+#home-button:focus {
+  outline: 0;
+}
+
+#home-button:after {
+  content: '';
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+#home-button:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+@media (min-width: 768px) {
+    #home-button {
+    padding: .75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
+    
+
 
 
 #topSchermR{
-border: red 1px solid;
-
+   
 }
 
 #topSchermL{
-    border: blue 1px solid;
- 
 
 }
+
