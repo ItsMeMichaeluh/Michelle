@@ -1,16 +1,44 @@
-.flexbox-1{
-    border: red solid 1px;
+*{
+    padding: 0;
+    margin: 0;
 }
 
-.flexbox-2{
-width: 20rem;
-height: 20rem;
+.mainScherm{
+    border: red 1px solid;
+    
 }
 
-.flexbox-3{
-
+#flexboxHoog{
+    margin-top: 8rem;
+    justify-content: space-between;
+    display: flex;
+    border: red 1px solid;
 }
 
-.flexbox-4{
+#flexbox-1{
+    height: 15rem;
+   
+    border: yellow 1px solid;
+}
 
+#flexbox-2{
+    height: 15rem;
+   
+    border: black 1px solid;
+}
+
+#flexboxLaag{
+    justify-content: space-between;
+    display: flex;
+    border: blue 1px solid;
+    margin-top: 8rem;
+}
+
+#flexbox-3{
+    height: 15rem;
+    border: green 1px solid;
+}
+#flexbox-4{
+    height: 15rem;
+    border: green 1px solid;
 }

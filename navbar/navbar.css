@@ -22,8 +22,7 @@
 }
 
 .headtext{
-  padding-top: 1.3rem ;
-  font-size: 1.5rem;
+  padding-top: 0.5rem;
 }
 
 #menu__toggle {
@@ -45,7 +44,6 @@
 }
 .menu__btn {
   position: fixed;
-  margin-top: 2rem;
   padding-top: 1rem;
   height: 1rem;
   left: 20px;
@@ -101,9 +99,9 @@
 }
 
 .shoppingcart{
-  padding-top: 2.1rem;
  font-size: 2rem;
  margin-right: 1.5rem;
  cursor: pointer;
  
 }
+
