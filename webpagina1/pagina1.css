@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+body{
+    background-image: url(/afbeeldingen/backgroundImage3.jpg);
+    background-size: cover;
+}
+
 .afbeelding-1{
     border: pink 1px solid;
 
