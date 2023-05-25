@@ -3,171 +3,95 @@
     margin: 0;
 }
 
-.mainScherm{
-    border: red 1px solid;
-    
-}
-
-#flexboxHoog{
-    margin-top: 8rem;
-    justify-content: space-between;
-    display: flex;
-    border: red 1px solid;
-}
-
-#flexbox-1{
-    height: 15rem;
-    border: yellow 1px solid;
-    display: flex; 
-    flex-direction: row; 
-}
-
-.flexbox-1-R{
-    flex-direction: column;
-    justify-content: end;
-    align-items: right;
-    display: flex;
-}
-
 .afbeelding-1{
     border: pink 1px solid;
-    height: 100%;
-    margin-left: -12px;
+
     
 }
 
 .img-1{
-    height: 100%;
-    width: 100%;
+
     border: black 1px solid;
 }
 
 .prijs-1{
-    height: 20%;
-    width: 60% ;
     border: black 1px solid;
     font-size: 2rem;
 }
 
 .beschrijving-1{
-    height: 60%;
-    width: 60% ;
     border: black 1px solid;
     font-size: 2rem;
 }
 
 .toevoegen-1{
-    height: 20%;
-    width: 60% ;
     border: black 1px solid;
     font-size: 2rem;  
-}
-
-#flexbox-2{
-    height: 15rem;
-    display: flex; 
-    flex-direction: row; 
-    border: black 1px solid;
+    text-align: center;
 }
 
 .afbeelding-2{
     border: pink 1px solid;
-    height: 100%;
-    margin-left: -12px;
 }
 
-.prijs-2{
-    height: 20%;
-    width: 60% ;
+.prijs-2{   
     border: black 1px solid;
     font-size: 2rem;
 }
 
 .beschrijving-2{
-    height: 60%;
-    width: 60% ;
     border: black 1px solid;
     font-size: 2rem;
 }
 
 .toevoegen-2{
-    height: 20%;
-    width: 60% ;
+
     border: black 1px solid;
     font-size: 2rem;  
+    text-align: center;
 }
 
-#flexboxLaag{
-    justify-content: space-between;
-    display: flex;
-    border: blue 1px solid;
-    margin-top: 8rem;
-}
-
-#flexbox-3{
-    height: 15rem;
-    border: green 1px solid;
-    display: flex; 
-    flex-direction: row; 
-}
 
 .afbeelding-3{
     border: pink 1px solid;
-    height: 100%;
-    margin-left: -12px;
 }
 
 .prijs-3{
-    height: 20%;
-    width: 60% ;
+
     border: black 1px solid;
     font-size: 2rem;
 }
 
 .beschrijving-3{
-    height: 60%;
-    width: 60% ;
+  
     border: black 1px solid;
     font-size: 2rem;
 }
 
 .toevoegen-3{
-    height: 20%;
-    width: 60% ;
+
     border: black 1px solid;
-    font-size: 2rem;  
+    font-size: 2rem; 
+    text-align: center;
 }
 
-#flexbox-4{
-    height: 15rem;
-    border: green 1px solid;
-    display: flex; 
-    flex-direction: row; 
-}
 
 .afbeelding-4{
     border: pink 1px solid;
-    height: 100%;
-    margin-left: -12px;
 }
 
 .prijs-4{
-    height: 20%;
-    width: 60% ;
     border: black 1px solid;
     font-size: 2rem;
 }
 
 .beschrijving-4{
-    height: 60%;
-    width: 60% ;
     border: black 1px solid;
     font-size: 2rem;
 }
 
 .toevoegen-4{
-    height: 20%;
-    width: 60% ;
     border: black 1px solid;
     font-size: 2rem;  
+    text-align: center;
 }

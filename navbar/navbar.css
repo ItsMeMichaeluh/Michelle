@@ -19,6 +19,7 @@
   justify-content: space-between;
   align-items: auto;
   display: flex;
+  width: 100%;
 }
 
 .headtext{
