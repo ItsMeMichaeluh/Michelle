@@ -1,102 +1,91 @@
+@font-face {
+    font-family: SunFlower;
+    src: url(/fonts/MADE\ Sunflower\ PERSONAL\ USE.otf);
+  }
+
 *{
     padding: 0;
     margin: 0;
 }
+
 
 body{
     background-image: url(/afbeeldingen/backgroundImage3.jpg);
     background-size: cover;
 }
 
-.afbeelding-1{
-    border: pink 1px solid;
-
-    
+.button-19 {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
 }
 
-.img-1{
-
-    border: black 1px solid;
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
 }
 
-.prijs-1{
-    border: black 1px solid;
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+}
+
+.div1, .div2, .div3, .div4{
+    background-color: rgba(255, 255, 255, 0.247);
+    font-family: SunFlower;
+}
+
+.beschrijving-1, .beschrijving-2, .beschrijving-3, .beschrijving-4{
+    font-size: 1.8rem;
+    font-family: SunFlower;
+}
+
+.prijs-1, .prijs-2, .prijs-3, .prijs-4{
     font-size: 2rem;
-}
-
-.beschrijving-1{
-    border: black 1px solid;
-    font-size: 2rem;
-}
-
-.toevoegen-1{
-    border: black 1px solid;
-    font-size: 2rem;  
-    text-align: center;
-}
-
-.afbeelding-2{
-    border: pink 1px solid;
-}
-
-.prijs-2{   
-    border: black 1px solid;
-    font-size: 2rem;
-}
-
-.beschrijving-2{
-    border: black 1px solid;
-    font-size: 2rem;
-}
-
-.toevoegen-2{
-
-    border: black 1px solid;
-    font-size: 2rem;  
-    text-align: center;
-}
-
-
-.afbeelding-3{
-    border: pink 1px solid;
-}
-
-.prijs-3{
-
-    border: black 1px solid;
-    font-size: 2rem;
-}
-
-.beschrijving-3{
-  
-    border: black 1px solid;
-    font-size: 2rem;
-}
-
-.toevoegen-3{
-
-    border: black 1px solid;
-    font-size: 2rem; 
-    text-align: center;
-}
-
-
-.afbeelding-4{
-    border: pink 1px solid;
-}
-
-.prijs-4{
-    border: black 1px solid;
-    font-size: 2rem;
-}
-
-.beschrijving-4{
-    border: black 1px solid;
-    font-size: 2rem;
-}
-
-.toevoegen-4{
-    border: black 1px solid;
-    font-size: 2rem;  
-    text-align: center;
+    font-family: SunFlower;
 }
