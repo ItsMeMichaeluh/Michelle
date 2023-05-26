@@ -73,11 +73,14 @@ body{
 .button-19:disabled {
   cursor: auto;
 }
-}
+    
 
 .div1, .div2, .div3, .div4{
     background-color: rgba(255, 255, 255, 0.247);
     font-family: SunFlower;
+    -webkit-box-shadow: -10px 10px 28px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -10px 10px 28px 7px rgba(0,0,0,0.75);
+    box-shadow: -10px 10px 28px 7px rgba(0,0,0,0.75);
 }
 
 .beschrijving-1, .beschrijving-2, .beschrijving-3, .beschrijving-4{
